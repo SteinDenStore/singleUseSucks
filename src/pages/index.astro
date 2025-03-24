@@ -5,12 +5,14 @@ import Link from "../components/Link.astro";
 import { Image } from "astro:assets";
 import thumbsup from "../assets/images/thumbsup.png";
 import mage1 from "../assets/images/mage1.png";
+import herounit from "../assets/images/heroUnit2.webp";
+import splitter1 from "../assets/images/splitter1.webp";
 ---
 
 <!-- Hero Unit -->
 <section class="">
   <div>
-    <img src="https://picsum.photos/id/13/1500/900" />
+    <Image src={herounit} alt="hero" />
   </div>
 </section>
 <MainLayout title="Titel">
@@ -70,7 +72,7 @@ import mage1 from "../assets/images/mage1.png";
     <article>
       <div
         class="sticky top-0 left-0 right-0 bottom-0 h-screen w-full bg-cover bg-center"
-        style="background-image: url('https://picsum.photos/id/13/1500/900')"
+        style="background-image: url('../assets/images/spiltter1.webp')"
       >
       </div><!-- sticky elementet -->
       <div class="relative flex justify-items-normal">
