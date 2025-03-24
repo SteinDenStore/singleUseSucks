@@ -4,6 +4,7 @@ import Button from "../components/Button.astro";
 import Link from "../components/Link.astro";
 import { Image } from "astro:assets";
 import thumbsup from "../assets/images/thumbsup.png";
+import mage1 from "../assets/images/mage1.png";
 ---
 
 <!-- Hero Unit -->
@@ -72,7 +73,7 @@ import thumbsup from "../assets/images/thumbsup.png";
         style="background-image: url('https://picsum.photos/id/13/1500/900')"
       >
       </div><!-- sticky elementet -->
-      <div class="relative flex justify-end">
+      <div class="relative flex justify-items-normal">
         <!-- relative elementet -->
         <div
           class="flex flex-col w-full md:w-1/2 h-full justify-center gap-4 p-4"
@@ -97,10 +98,19 @@ import thumbsup from "../assets/images/thumbsup.png";
         <div class="flex justify-start h-full">
           <div class="flex flex-col w-full md:w-1/2 justify-center gap-4 p-4">
             <div class="bg-slate-100">
-              <p class="text-center">Fast placeret indhold 1</p>
+              <p class="text-center text-4xl font-bold">Overskrift</p>
             </div>
             <div class="bg-slate-100">
-              <p class="text-center">Fast placeret indhold 2</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae quis iusto at aut officia itaque sint sapiente
+                corrupti quisquam temporibus. Minima, numquam? Officiis eius
+                fugit libero esse laboriosam at illo! Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit. Repudiandae quis iusto at aut
+                officia itaque sint sapiente corrupti quisquam temporibus.
+                Minima, numquam? Officiis eius fugit libero esse laboriosam at
+                illo!
+              </p>
             </div>
           </div>
         </div>
@@ -109,11 +119,19 @@ import thumbsup from "../assets/images/thumbsup.png";
         <div
           class="flex flex-col w-full md:w-1/2 h-full justify-center gap-4 p-4"
         >
-          <div class="bg-slate-100">
-            <Image src={} class="w-2/3" alt="foto" />
+          <div class="animate__animated animate-pulse">
+            <Image src={mage1} alt="måge" />
           </div>
           <div class="bg-slate-100">
-            <p class="text-center">Scrollende indhold 2</p>
+            <p class="">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae quis iusto at aut officia itaque sint sapiente
+              corrupti quisquam temporibus. Minima, numquam? Officiis eius fugit
+              libero esse laboriosam at illo! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Repudiandae quis iusto at aut
+              officia itaque sint sapiente corrupti quisquam temporibus. Minima,
+              numquam? Officiis eius fugit libero esse laboriosam at illo!
+            </p>
           </div>
         </div>
       </div>
